@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../images/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 1.6rem;
+}
+
+h1 {
+    text-align: center; 
+    /* text-align = serve para centralizar o texto */
+    font-family: 'Rowdies', cursive;
+    margin-top: 5rem;
+    font-size: 40px;
+    color: #000;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+
+
+header {
+    background: #658B5B;
+    height: 10.4rem;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin-inline: auto;
+    color: #fff;
+    margin-top: 3.78rem;
+    font-family: 'Roboto', sans-serif;
+} 
+
+
+a:hover{
+    color: #006400;
+
+} 
+
+
+.ap{
+    display: flex;
+    margin-inline: auto;
+    gap: 35rem;
+}
+
+.ap a{
+    text-decoration: none;
+    font-size: 2rem;    
+    margin-inline: auto;
+    color: #fff;
+    margin-top: 3.78rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ap a:hover{
+    color: #006400;
+
+}
+
+.fotos-1 {
+    text-align: center;
+    margin-top: 3rem;
+} 
+
+.foto-2 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.foto-3 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.foto-4 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.foto-5 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.foto-6 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.foto-7 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.foto-8 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.p {
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+.saiba {
+    background: #A3E392;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #006400;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    text-decoration: none;
+    font-family: Rowdies;
+    font-size: small;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}

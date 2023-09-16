@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Rowdies:wght@300&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: no-repeat url(./images/teemu-paananen-OOE4xAnBhKo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 1.6rem;
+}
+
+header {
+    background: #658B5B;
+    height: 10.4rem;
+    display: flex;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100svh - 10.4rem);
+}
+
+.texts{
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: rgba(101, 139, 91, 0.8);
+    max-width: 106.8rem;
+    border-radius: 20px;
+    padding-inline: 3.8rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+p{
+    margin-top: 4.7rem;
+    font-size: 2.4rem;
+}
+
+h1{
+    font-size: 6.4rem;
+    margin-top: -3.7rem;
+    font-family: 'Rowdies', cursive;
+}
+
+a{
+    text-decoration: none;
+    font-size: 2rem;    
+    margin-inline: auto;
+    color: #fff;
+    margin-top: 3.78rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a:hover{
+    color: #006400;
+
+}
+
+.ap{
+    display: flex;
+    margin-inline: auto;
+    gap: 35rem;
+}
+
+.ap a{
+    text-decoration: none;
+    font-size: 2rem;    
+    margin-inline: auto;
+    color: #fff;
+    margin-top: 3.78rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.ap a:hover{
+    color: #006400;
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}

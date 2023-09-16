@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Rowdies:wght@300&family=Ubuntu:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+h1{
+    font-family: Rowdies;
+    text-align: center;
+    margin-top: 4.1rem;
+    margin-bottom: 2.7rem;
+    font-size: 4rem;
+}
+
+p{
+    font-family: Roboto ;
+    font-size: 2.3rem;
+    width: 110.4rem;
+    margin-inline: auto;
+    line-height: 2.784rem;
+    
+}
+
+body{
+    background: no-repeat url(../images/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 200rem;
+}
+
+.histologia{
+    max-width: 130rem;
+    margin-inline: 50rem;
+    height: 40rem;
+    border-radius: 15px;
+    background: no-repeat url(../images/Histologia.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 6.3rem;
+}
+
+.reino{
+    max-width: 130rem;
+    margin-inline: 50rem;
+    height: 40rem;
+    border-radius: 15px;
+    background-image: url(../images/reino.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.celula-vegetal {
+    max-width: 130rem;
+    margin-inline: 50rem;
+    height: 40rem;
+    border-radius: 15px;
+    background-image: url(../images/celulaa.png);
+    background-size: cover;
+    background-position: center; 
+}
+
+.parte-das-plantas {
+    max-width: 130rem;
+    margin-inline: 50rem;
+    height: 40rem;
+    border-radius: 15px;
+    background-image: url(../images/parte\ das\ plantas.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.paragrafo-parte-das-plantas {
+    margin-top: 5.5rem;
+}
+
+.paragrafo-reino {
+    margin-top: 5.5rem;
+}
+
+.paragrafo-celula-vegetal {
+    margin-top: 5.5rem;
+}
+
+
+.saiba {
+    background: #A3E392;
+    padding: .75rem 1.25rem;
+    border-radius: 10rem;
+    color: #006400;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    text-decoration: none;
+    font-family: Rowdies;
+    font-size: small;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+header {
+    background: #658B5B;
+    height: 10.4rem;
+    display: flex;
+}
+
+.ap{
+    display: flex;
+    margin-inline: auto;
+    gap: 35rem;
+}
+
+.ap a{
+    text-decoration: none;
+    font-size: 2rem;    
+    margin-inline: auto;
+    color: #fff;
+    margin-top: 3.78rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.ap a:hover{
+    color: #006400;
+
+}

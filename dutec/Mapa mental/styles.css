@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Rowdies:wght@300&family=Ubuntu:wght@400;700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/fundo.jpg);
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+header {
+  background: #658B5B;
+  height: 10.4rem;
+  display: flex;
+}
+
+
+a{
+  font-size: 1.2rem;
+  font-family:'Roboto', sans-serif;
+  font-family: 400;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  display: flex;
+  margin-left: 8.875rem;
+}
+
+nav ul li:first-child {
+  display: flex;
+  margin-left: 10.688rem;
+}
+
+nav ul li a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  text-align: center;
+  margin-top: 1.875rem;
+}
+
+h1 {
+
+  font-family: 'Rowdies', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color:#000;
+
+}
+
+h2 {
+    font-family: 'Rowdies', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #000;
+}
+
+.coluna1 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1.875rem;
+  width: 48.75rem;
+  font-family: 'Ubuntu', sans-serif;
+} 
+
+.coluna2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1.25rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.coluna2 a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: 8.813rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.column img {
+  display: flex;
+  width: 9.375rem;
+  height: 9.375rem;
+  margin-bottom: 0.625rem;
+}
+
+
+a{
+  text-decoration: none;
+  font-size: 2rem;    
+  margin-inline: auto;
+  color: #fff;
+  margin-top: 3.78rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+.ap{
+  display: flex;
+  margin-inline: auto;
+  gap: 35rem;
+}
+
+.ap a{
+  text-decoration: none;
+  font-size: 2rem;    
+  margin-inline: auto;
+  color: #fff;
+  margin-top: 3.78rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.ap a:hover{
+  color: #006400;
+
+}
